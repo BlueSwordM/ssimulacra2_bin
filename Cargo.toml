@@ -34,3 +34,7 @@ codegen-units = 1
 [features]
 default = ["video"]
 video = ["av-metrics-decoders", "plotters", "statrs", "num-traits"]
+
+[patch.crates-io]
+yuvxyb = { git = "https://github.com/rust-av/yuvxyb" }
+ssimulacra2 = { git = "https://github.com/BlueSwordM/ssimulacra2" }
